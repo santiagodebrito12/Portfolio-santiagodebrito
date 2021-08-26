@@ -36,7 +36,10 @@
   --mb-5: 2.5rem;
   --mb-6: 3rem;
 }
-
+/* clases */
+.mt-5{
+  margin-top: 2.5rem;
+}
 /* z index */
 :root{
   --z-back: -10;
@@ -99,6 +102,7 @@ box-sizing: border-box; }
 }
 #cv{
     font-size: 1.2rem;
+    padding: 0.3rem 0;
 }
 /* CLASS CSS  */
 .section-title{
@@ -426,12 +430,13 @@ box-sizing: border-box; }
   }
   .skills_container{
     margin: 2% auto;
+    
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
   }
   .skills_container p{
-    padding: 0.4rem;
+  
     font-size: 1rem;
     font-weight: 600;
   }
@@ -464,7 +469,16 @@ box-sizing: border-box; }
   .home__img{
     right: 10%;
     }
+    .skills_container{
+      margin: 2% auto;
+      padding: 0 6rem;
+      display: flex;
+      /* justify-content: space-around; */
+      align-items: center;
+    }
   }
+  
+  
 }
 
 .contactoContent {
@@ -472,6 +486,7 @@ box-sizing: border-box; }
   align-items: center;
   height: 500px;
 }
+
 
 /* ===== CONTACTO =====*/
 .contact__input{
